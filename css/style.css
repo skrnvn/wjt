@@ -1,0 +1,246 @@
+html,
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.container-bg {
+    padding: 200px;
+}
+
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__crisis {
+    background-image: url(/img/section_bg_1.jpg);
+    min-height: 900px;
+    border: 1px solid transparent;
+}
+
+.section__challenges {
+    background-image: url(/img/section_bg_2.jpg);
+    min-height: 950px;
+    border: 1px solid transparent;
+}
+
+.section-desc {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 80px 60px;
+}
+
+.section-desc--small {
+    margin: 100px 0;
+    width: 34%;
+}
+
+.section-desc__title {
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.section-desc__title--small {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 25px;
+}
+
+.section-desc__title::after {
+    content: "";
+    display: block;
+    background-color: #000000;
+    width: 30px;
+    height: 5px;
+    margin-top: 20px;
+}
+
+.section-desc__text {
+    font-size: 18px;
+    line-height: 32px;
+    opacity: .7;
+    margin-bottom: 35px;
+}
+
+.section-desc__text--small {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 25px;
+}
+
+.button {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button--main {
+    border: 1px solid black;
+}
+
+.button--yellow {
+    background-color: #FCF113;
+    ;
+}
+
+
+/* -----header----- */
+
+header {
+    padding: 90px 0 120px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    position: absolute;
+    left: -95px;
+    top: 15px;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.header-title {
+    width: 50%;
+    font-size: 144px;
+    line-height: 144px;
+}
+
+.header-info {
+    width: 25%;
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.header-info::before {
+    position: absolute;
+    left: -20px;
+    content: "";
+    display: block;
+    background-color: #000000;
+    width: 3px;
+    height: 183px;
+}
+
+.header-info__slogan {
+    padding-bottom: 15px;
+}
+
+.header-info__talk {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: .5;
+    padding-bottom: 15px;
+}
+
+.header-info__contact {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+
+/* ----- features section ----- */
+
+.section-features {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ----- career section ----- */
+
+.career-block {
+    width: 42%;
+    text-align: center;
+    margin: 95px 0;
+}
+
+.career-block__title {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    margin-bottom: 40px;
+}
+
+.career-block__text {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    opacity: .7;
+}
+
+
+/* ----- blog ----- */
+
+.blog-primary,
+.blog-secondary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    width: 33%;
+    margin-bottom: 200px;
+    min-height: 500px;
+    position: relative;
+}
+
+.blog-post--expand {
+    width: 66%;
+}
+
+.blog-post::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #000000;
+    position: absolute;
+    bottom: 0;
+}
+
+.blog-post__category {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.blog-post__category span {
+    opacity: .7;
+}
+
+.blog-post__title {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.blog-post__img {
+    max-height: 310px;
+}
